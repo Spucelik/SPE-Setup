@@ -1,6 +1,8 @@
 # SPE-Setup
 
-The scripts that I use in this guide can be found in the \assets directory.  A companion video is also available.
+The scripts that I use in this guide can be found in the \assets directory.
+
+A [companion video](https://youtu.be/IxiUeCzR9Iw) is also available with step by step instructions.
 
 Here is an overview of the creation process
 
