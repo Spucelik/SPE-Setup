@@ -40,7 +40,6 @@ Here is an overview of the creation process
 ],
 ```
 
-
 3. Set the variables we need to run the setup scripts
 
 ```
