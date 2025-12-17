@@ -12,34 +12,38 @@ Here is an overview of the creation process
 2. Modify the App Manifest in include this block, replacing what starts on line 72.
 
 ``` 
-      {
-        "id": "4d114b1a-3649-4764-9dfb-be1e236ff371",
-        "type": "Scope"
-      },
-      {
-        "id": "19766c1b-905b-43af-8756-06526ab42875",
-        "type": "Role"
-      }
-    ]
-  },
-  {
-    "resourceAppId": "00000003-0000-0000-c000-000000000000",
-    "resourceAccess": [
-      {
-        "id": "085ca537-6565-41c2-aca7-db852babc212",
-        "type": "Scope"
-      },
-      {
-        "id": "40dc41bc-0f7e-42ff-89bd-d9516947e474",
-        "type": "Role"
-      },
-      {
-            "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
-            "type": "Scope"
-        }
-    ]
-  }
-],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0ff1-ce00-000000000000",
+			"resourceAccess": [
+				{
+					"id": "4d114b1a-3649-4764-9dfb-be1e236ff371",
+					"type": "Scope"
+				},
+				{
+					"id": "19766c1b-905b-43af-8756-06526ab42875",
+					"type": "Role"
+				}
+			]
+		},
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "085ca537-6565-41c2-aca7-db852babc212",
+					"type": "Scope"
+				},
+				{
+					"id": "40dc41bc-0f7e-42ff-89bd-d9516947e474",
+					"type": "Role"
+				},
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
 ```
 
 3. Set the variables we need to run the setup scripts
